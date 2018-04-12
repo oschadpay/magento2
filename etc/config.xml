@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <oschadpay>
+                <model>Oschadpay\Oschadpay\Model\Oschadpay</model>
+                <group>offline</group>
+                <active>1</active>
+                <title>Oschadpay</title>
+                <payment_action>https://api.oschadpay.com.ua/api/checkout/redirect/</payment_action>
+            </oschadpay>
+        </payment>
+    </default>
+</config>
