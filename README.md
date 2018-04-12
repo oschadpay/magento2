@@ -43,10 +43,4 @@ Installation via Composer
     php bin/magento setup:static-content:deploy
     ```
 
-## Installation via Magento Marketplace
-=======
-https://marketplace.magento.com/cloudipsp-oschadpay.html
-
-## Plugin Configuration
-
 Enable and configure Oschadpay plugin in Magento Admin under `Stores / Configuration / Sales / Payment Methods / Oschadpay`.
